@@ -7,6 +7,13 @@
 *.dll
 *.so
 *.dylib
+*.gob
+
+config/access.json
+config/auth.json
+
+# Logging files
+*.log
 
 # Test binary, built with `go test -c`
 *.test
@@ -30,3 +37,6 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Storage of databases
+data/[a-zA-Z0-9]*
